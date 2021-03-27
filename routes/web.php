@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+//Route::get('/dayanaII', [HomeController::class, 'dayana'])->name('dayana');

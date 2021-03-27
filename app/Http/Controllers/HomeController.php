@@ -9,4 +9,7 @@ class HomeController extends Controller
     public function index(){
         return view('page.home');
     }
+//    public function dayana(){
+//        return view('page.');
+//    }
 }
